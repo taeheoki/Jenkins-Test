@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk11
+FROM adoptopenjdk/openjdk17
 
 COPY ./build/libs/jenkis_test-0.0.1-SNAPSHOT.jar app.jar
 
