@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17
+FROM eclipse-temurin:17-jdk-focal
 
 COPY ./build/libs/jenkis_test-0.0.1-SNAPSHOT.jar app.jar
 
